@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_shape1"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="50dp"
+        android:layout_marginVertical="15dp"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/imageViewInlist"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sky"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="Title"
+            android:layout_marginVertical="15dp"
+            android:id="@+id/textViewTitle"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Details"
+            android:layout_marginVertical="15dp"
+            android:id="@+id/textViewDetails"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/copyBtn"
+            android:layout_marginTop="30dp"
+            android:text="Copy Details"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:paddingVertical="12dp"
+            android:textColor="@color/sky"
+            />
+    </LinearLayout>
+
+</LinearLayout>
